@@ -1,0 +1,21 @@
+html {
+  font-family: "Noto Serif", serif;
+}
+
+header h1 footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.green {
+  border-color: #6e8c62;
+}
+
+.greenword {
+  color: #6e8c62;
+}
+
+[type="checkbox"] + label::before,
+[type="radio"] + label::before {
+  border-color: #6e8c62;
+}
