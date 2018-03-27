@@ -179,26 +179,48 @@
         <fieldset>
           <legend>Do you have a valid driver’s license?</legend>
           <div>
+            <input id="validy" type="radio" name="driverlice" required>
+            <label for="validy">Yes</label>
+
+            <input id="validn" type="radio" name="driverlice" required>
+            <label for="validn">No</label>
           </div>
         </fieldset>
 
         <fieldset>
           <legend>Do you have a pick-up truck you’d be willing to use?</legend>
           <div>
+            <input id="validye" type="radio" name="truck" required>
+            <label for="validye">Yes</label>
+
+            <input id="validne" type="radio" name="truck" required>
+            <label for="validne">No</label>
           </div>
         </fieldset>
 
         <fieldset>
           <legend>Do you have up-to-date first-aid certification?</legend>
           <div>
+            <div>
+              <input id="validyeq" type="radio" name="certification" required>
+              <label for="validyeq">Yes</label>
+
+              <input id="validneq" type="radio" name="certification" required>
+              <label for="validneq">No</label>
+            </div>
           </div>
         </fieldset>
 
         <fieldset>
           <legend>Please let us know any comments or questions you may have.</legend>
           <div>
+            <label for="questions">Address</label>
+            <textarea id="questions" name="questions" required></textarea>
           </div>
         </fieldset>
+        <div>
+          <button type="submit">Apply</button>
+        </div>
       </form>
     </div>
   </section>
