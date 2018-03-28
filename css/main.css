@@ -11,8 +11,20 @@ fieldset {
   border: none;
 }
 
-.green {
+input {
   border-color: #6e8c62;
+}
+
+select {
+  border-color: #6e8c62;
+}
+
+textarea {
+  border-color: #6e8c62;
+}
+
+hr {
+  border-color: #70ad55;
 }
 
 .greenword {
@@ -27,6 +39,7 @@ fieldset {
 .btn {
   color: #fff;
   background-color: #6e8c62;
+  border-color: #6e8c62;
 }
 
 footer {
