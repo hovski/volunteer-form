@@ -19,25 +19,25 @@
       <p class="push-1-2">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </div>
     </header>
-      <form>
+      <form class="wrapper gutter-1-2">
         <fieldset>
-          <legend>Personal details</legend>
+          <legend class="push">Personal details</legend>
           <div class="grid">
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-r">
               <label for="name">Full name</label>
               <input id="name" name="name" required>
               <p class="italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
             </div>
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-l">
               <label for="name">What should we call you?</label>
               <input id="name" name="name" required>
               <p class="italic">What all your friends call you, e.g. “Liz”.</p>
             </div>
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-r">
               <label for="date">Date of birth</label>
               <input id="date" type="date" name="date" required>
             </div>
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-l">
               <label for="tshirt-size">T-shirt size</label>
               <select id="tshirt-size" name="t-shirt size">
               <option>Select a t-shirt size</option>
@@ -53,33 +53,29 @@
               <option>Straight-cut: XL</option>
             </select>
             </div>
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-r">
               <label for="email">Email</label>
               <input id="email" type="email" name="email" required>
             </div>
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
-              <label for="tel">Phone number<span class="italic greenword">(optional)</span></label>
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-l">
+              <label for="tel">Phone number <span class="italic greenword">(optional)</span></label>
               <input id="tel" name="tel" required>
             </div>
           </div>
         </fieldset>
         <hr>
-        <fieldset>
-          <legend>Address</legend>
+        <fieldset class="pad-t">
+          <legend class="pad-t">Address</legend>
           <div class="grid">
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-r">
               <label for="address">Street address</label>
               <input id="address" name="address" required>
             </div>
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-l">
               <label for="city">City</label>
               <input id="city" name="city" required>
             </div>
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
-              <label for="postal">Postal code</label>
-              <input id="postal" name="postal" required>
-            </div>
-            <div class="unit push xs-1 s-1 m-1-2 l-1-2">
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-r">
               <label for="province">Province</label>
               <select id="province" name="province">
               <option>Select a province</option>
@@ -98,44 +94,48 @@
               <option>Yukon</option>
             </select>
             </div>
+            <div class="unit push xs-1 s-1 m-1-2 l-1-2 pad-l">
+              <label for="postal">Postal code</label>
+              <input id="postal" name="postal" required>
+            </div>
           </div>
         </fieldset>
         <hr>
         <fieldset>
-          <legend>What activities are you interested in helping with?</legend>
+          <legend class="pad-t">What activities are you interested in helping with?</legend>
           <div class="grid">
             <div class="unit push xs-1 s-1 m-1-2 l-1-2">
-            <div>
+            <div class="push-1-4">
               <input id="digging" type="checkbox" name="digging" required>
               <label for="digging">Digging holes</label>
           </div>
-            <div>
+            <div class="push-1-4">
               <input id="dirty" type="checkbox" name="dirty" required>
               <label for="dirty">Getting dirty</label>
           </div>
-            <div>
+            <div class="push-1-4">
               <input id="lift" type="checkbox" name="lift" required>
               <label for="lift">Lifting heavy objects</label>
           </div>
-            <div>
+            <div class="push-1-4">
               <input id="drive" type="checkbox" name="drive" required>
               <label for="drive">Driving people</label>
-          </div>
             </div>
+          </div>
             <div class="unit push xs-1 s-1 m-1-2 l-1-2">
-            <div>
+            <div class="push-1-4">
               <input id="tree" type="checkbox" name="tree" required>
               <label for="tree">Transporting trees</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="photos" type="checkbox" name="photos" required>
               <label for="photos">Taking photos</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="publishing" type="checkbox" name="publishing" required>
               <label for="publishing">Online publishing</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="manage" type="checkbox" name="manage" required>
               <label for="manage">Managing people</label>
             </div>
@@ -146,45 +146,45 @@
           <legend>Do you have any experience with the following?</legend>
           <div class="grid">
             <div class="unit push xs-1 s-1 m-1-2 l-1-2">
-            <div>
+            <div class="push-1-4">
               <input id="shovel" type="checkbox" name="shovel" required>
               <label for="shovel">Shovels</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="gps" type="checkbox" name="gps" required>
               <label for="gps">Hand-held GPS</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="blogging" type="checkbox" name="blogging" required>
               <label for="blogging">Writing & blogging</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="photog" type="checkbox" name="photog" required>
               <label for="photog">Photography</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="climbing" type="checkbox" name="climbing" required>
               <label for="climbing">Trail & hill climbing</label>
             </div>
             </div>
             <div class="unit push xs-1 s-1 m-1-2 l-1-2">
-            <div>
+            <div class="push-1-4">
               <input id="craft" type="checkbox" name="craft" required>
               <label for="craft">Bush craft</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="atvs" type="checkbox" name="atvs" required>
               <label for="atvs">ATVs</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="plantid" type="checkbox" name="plantid" required>
               <label for="plantid">Plant identification</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="eventp" type="checkbox" name="eventp" required>
               <label for="eventp">Special event planning</label>
             </div>
-            <div>
+            <div class="push-1-4">
               <input id="speakingto" type="checkbox" name="speakingto" required>
               <label for="speakingto">Speaking to groups</label>
             </div>
@@ -233,8 +233,8 @@
           <button class="btn gutter-2" type="submit">Apply</button>
         </div>
       </form>
-      <footer>
-        <p>© Tree Hugger International Organization</p>
+      <footer class="gutter-1-2 wrapper pad-t pad-b">
+        <small>© Tree Hugger International Organization</small>
       </footer>
     </div>
   </section>
