@@ -2,9 +2,13 @@ html {
   font-family: "Noto Serif", serif;
 }
 
-header h1 footer {
+header h1 {
   background-color: #70ad55;
   color: #fff;
+}
+
+fieldset {
+  border: none;
 }
 
 .green {
@@ -18,4 +22,14 @@ header h1 footer {
 [type="checkbox"] + label::before,
 [type="radio"] + label::before {
   border-color: #6e8c62;
+}
+
+.btn {
+  color: #fff;
+  background-color: #6e8c62;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
 }
